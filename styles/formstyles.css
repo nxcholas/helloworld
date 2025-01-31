@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  max-width: 10%;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+  }
+  
+  input[type="submit"]:active {
+    background-color: green;
+  }

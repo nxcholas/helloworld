@@ -1,0 +1,65 @@
+*{
+  scroll-behavior: smooth;
+}
+
+*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1.3rem;
+}
+
+body {
+  font-family: 'Calibri';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-family: 'Helvetica';
+}
+
+.headings {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+input[type="submit"]:hover {
+color: red;
+}
+
+input[type="submit"]:active {
+  color: green;
+}
+
+ul > li {
+  border: 1px solid black;
+}
+
+ol > li {
+  text-transform: lowercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: lightblue !important;
+}
+
+hr {
+  border: none;              /* Remove default border */
+  border-top: 2px solid black; /* Add a solid top border for visibility */
+  width: 100%;               /* Ensure it spans across the full width */
+  margin: 20px 0;            /* Add spacing above and below */
+}
